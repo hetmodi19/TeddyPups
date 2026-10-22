@@ -1,0 +1,23 @@
+<?php
+$puppy_meta = [
+    'blue-marle-pomeranian' => ['title' => 'Pomeranian puppy (boy) | TeddyPups U.A.E.', 'desc' => 'Meet this Pomeranian: Pomeranian, boy, 3 months old, imported. Real photos from TeddyPups U.A.E.'],
+    'copper-male' => ['title' => 'Copper, Cavapoo puppy | TeddyPups U.A.E.', 'desc' => 'Meet Copper: Cavapoo, boy, 2 months old, imported. Real photos from TeddyPups U.A.E.'],
+    'korean-teacup-maltipoo-female' => ['title' => 'Korean Teacup Maltipoo puppy (girl) | TeddyPups U.A.E.', 'desc' => 'Meet this Korean Teacup Maltipoo: Korean Teacup Maltipoo, girl, 2 months old, imported. Real photos and video from TeddyPups U.A.E.'],
+    'korean-teacup-pomeranian-1' => ['title' => 'Korean Teacup Pomeranian puppy (girl) | TeddyPups U.A.E.', 'desc' => 'Meet this Korean Teacup Pomeranian: Korean Teacup Pomeranian, girl, 2 months old, imported. Real photos from TeddyPups U.A.E.'],
+    'korean-teacup-pomeranian-male' => ['title' => 'Korean Teacup Pomeranian puppy (boy) | TeddyPups U.A.E.', 'desc' => 'Meet this Korean Teacup Pomeranian: Korean Teacup Pomeranian, boy, 2 months old, imported. Real photos from TeddyPups U.A.E.'],
+    'korean-teacup-pomeranian' => ['title' => 'Korean Teacup Pomeranian puppy (girl) | TeddyPups U.A.E.', 'desc' => 'Meet this Korean Teacup Pomeranian: Korean Teacup Pomeranian, girl, 2 months old, imported. Real photos from TeddyPups U.A.E.'],
+    'korean-teacup-poodle-female' => ['title' => 'Korean Teacup Poodle puppy (girl) | TeddyPups U.A.E.', 'desc' => 'Meet this Korean Teacup Poodle: Korean Teacup Poodle, girl, 2 months old, imported. Real photos from TeddyPups U.A.E.'],
+    'maltipoo-cavapoo-male' => ['title' => 'Maltipoo &amp; Cavapoo puppy (boy) | TeddyPups U.A.E.', 'desc' => 'Meet this Maltipoo &amp; Cavapoo: Maltipoo &amp; Cavapoo, boy, 3 months Maltipoo &amp; 2 months Cavapoo old, imported. Real photos and video from TeddyPups U.A.E.'],
+    'maltipoo-female-1' => ['title' => 'Maltipoo puppy (girl) | TeddyPups U.A.E.', 'desc' => 'Meet this Maltipoo: Maltipoo, girl, 2.5 months old, imported. Real photos from TeddyPups U.A.E.'],
+    'maltipoo-female-2' => ['title' => 'Maltipoo puppy (girl) | TeddyPups U.A.E.', 'desc' => 'Meet this Maltipoo: Maltipoo, girl, 3 months old, imported. Real photos and video from TeddyPups U.A.E.'],
+    'maltipoo-female' => ['title' => 'Maltipoo puppy (girl) | TeddyPups U.A.E.', 'desc' => 'Meet this Maltipoo: Maltipoo, girl, 2 months old, imported. Real photos from TeddyPups U.A.E.'],
+    'maltipoo-max-male' => ['title' => 'Max, Maltipoo puppy | TeddyPups U.A.E.', 'desc' => 'Meet Max: Maltipoo, boy, 3 months old, imported. Real photos and video from TeddyPups U.A.E.'],
+    'maltipoo-mia-girl' => ['title' => 'Mia, Maltipoo puppy | TeddyPups U.A.E.', 'desc' => 'Meet Mia: Maltipoo, girl, 3 months old, in Dubai. Real photos from TeddyPups U.A.E.'],
+    'maltipoo-sadie-girl' => ['title' => 'Sadie, Maltipoo puppy | TeddyPups U.A.E.', 'desc' => 'Meet Sadie: Maltipoo, girl, 3 months old, imported. Real photos from TeddyPups U.A.E.'],
+    'pomeranian-ace-boy' => ['title' => 'Ace, Pomeranian puppy | TeddyPups U.A.E.', 'desc' => 'Meet Ace: Pomeranian, boy, 3 months old, imported. Real photos from TeddyPups U.A.E.'],
+    'pomeranian-female' => ['title' => 'Pomeranian puppy (girl) | TeddyPups U.A.E.', 'desc' => 'Meet this Pomeranian: Pomeranian, girl, 3 months old, imported. Real photos from TeddyPups U.A.E.'],
+    'poodle-leo-male' => ['title' => 'Leo, Poodle puppy | TeddyPups U.A.E.', 'desc' => 'Meet Leo: Poodle, boy, 3 months old, imported. Real photos from TeddyPups U.A.E.'],
+    'shitzu-female' => ['title' => 'Shih Tzu puppy (girl) | TeddyPups U.A.E.', 'desc' => 'Meet this Shih Tzu: Shih Tzu, girl, 2 months old, imported. Real photos from TeddyPups U.A.E.'],
+    'shitzu-male' => ['title' => 'Shih Tzu puppy (boy) | TeddyPups U.A.E.', 'desc' => 'Meet this Shih Tzu: Shih Tzu, boy, 2 months old, imported. Real photos from TeddyPups U.A.E.'],
+    'toy-poodle-male-female' => ['title' => 'Toy Poodle puppy (boy &amp; girl) | TeddyPups U.A.E.', 'desc' => 'Meet this Toy Poodle: Toy Poodle, boy &amp; girl, 2 months old, imported. Real photos from TeddyPups U.A.E.'],
+];

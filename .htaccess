@@ -1,0 +1,44 @@
+# TeddyPups U.A.E. Apache / XAMPP Configuration
+Options -MultiViews
+RewriteEngine On
+RewriteBase /project/
+
+# Handle Next.js image URL compatibility
+RewriteRule ^_next/image/?$ _next/image.php [QSA,L]
+RewriteRule ^cursor/(.*)$ cursor/$1 [L]
+RewriteRule ^brand/logo\.png$ assets/images/logo.png [L]
+RewriteRule ^icon\.png$ assets/images/icon.png [L]
+RewriteRule ^apple-icon\.png$ assets/images/apple-icon.png [L]
+RewriteRule ^media/.*/.*\.mp4$ assets/images/showroom_video.mp4 [L]
+
+# Redirect trailing slashes on non-directories
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ $1 [L,R=301]
+
+# Route /puppies/[slug] to puppy.php?slug=[slug]
+RewriteRule ^puppies/([a-zA-Z0-9\-_]+)$ puppy.php?slug=$1 [QSA,L]
+
+# Route /gone-home to puppies.php?tab=gone-home
+RewriteRule ^gone-home$ puppies.php?tab=gone-home [QSA,L]
+
+# Route clean URLs to PHP files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/project/$1\.php -f
+RewriteRule ^([a-zA-Z0-9\-_]+)$ $1.php [NC,L]
+
+# Fallback for root files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Caching for assets
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpg "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/avif "access plus 1 month"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+</IfModule>
